@@ -1,0 +1,17 @@
+hattandafuuko@MacBook-Air-2 git_challenge % echo "hello_world.txtを作成">> hello_wo
+rld.txt
+hattandafuuko@MacBook-Air-2 git_challenge % git init /Users/hattandafuuko/Desktop/samurai/git_challenge
+Initialized empty Git repository in /Users/hattandafuuko/Desktop/samurai/git_challenge/.git/
+hattandafuuko@MacBook-Air-2 git_challenge % git add hello_world.txt
+hattandafuuko@MacBook-Air-2 git_challenge % git commit -m "1回目の追加"
+[main (root-commit) e9eb2de] 1回目の追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+hattandafuuko@MacBook-Air-2 git_challenge % git add hello_world.txt 
+hattandafuuko@MacBook-Air-2 git_challenge % git commit -m "2回目の追加"
+[main 0042acb] 2回目の追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+hattandafuuko@MacBook-Air-2 git_challenge % git log --oneline
+0042acb (HEAD -> main) 2回目の追加
+e9eb2de 1回目の追加
+hattandafuuko@MacBook-Air-2 git_challenge % 
