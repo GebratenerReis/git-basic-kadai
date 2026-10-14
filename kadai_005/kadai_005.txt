@@ -6,11 +6,11 @@ hattandafuuko@MacBook-Air-2 git_challenge % git commit -m "1回目の追加"
 [main 8c03493] 1回目の追加
  1 file changed, 1 insertion(+)
  create mode 100644 hello_world.txt
- hattandafuuko@MacBook-Air-2 git_challenge % echo 'Hello, world!'>> hello_world.txt
+ hattandafuuko@MacBook-Air-2 git_challenge % echo "Hello, world!" "こんにちは、世界！" >> hello_world.txt
 hattandafuuko@MacBook-Air-2 git_challenge % git add .
 hattandafuuko@MacBook-Air-2 git_challenge % git commit -m "日本語訳を追加: こんにちは、世界！"
 [main 0ddba50] 2回目の追加
- 2 files changed, 1 insertion(+)
+ 1 files changed, 1 insertion(+)
 hattandafuuko@MacBook-Air-2 git_challenge % git log --oneline
 0ddba50 (HEAD -> main) 2回目の追加
-8c03493 1回目の追加git 
+8c03493 1回目の追加
